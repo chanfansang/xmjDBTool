@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmjdbtool>
+	<databases>
+		<database name="Default">
+			<Type>MYSQL</Type>
+			<USERNAME>root</USERNAME>
+			<PASSWORD>qwer</PASSWORD>
+			<URL>jdbc:mysql://localhost:3306/xmjservice</URL>
+			<MaxConnCount>1000</MaxConnCount>
+			<InitConnCount>0</InitConnCount>
+		</database>
+		<database name="Default_ORACL">
+			<Type>MYSQL</Type>
+			<USERNAME>root</USERNAME>
+			<PASSWORD>3306</PASSWORD>
+			<URL>jdbc:mysql://localhost:3306/xmjservice</URL>
+			<MaxConnCount>1000</MaxConnCount>
+			<InitConnCount>0</InitConnCount>
+		</database>
+	</databases>
+</xmjdbtool>
